@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar > h3 {
+  width: 80%;
+  font-size: medium;
+  padding-left: 1%;
+  padding-top: 1%;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  float: left;
+  height: 50px;
+  background-color: #202124;
+}
+.menu {
+  background-color: #202124;
+  float: right;
+  padding-left: 3%;
+  position: relative;
+  padding-top: 1%;
+  width: 20%;
+  height: 50px;
+}
+ul li {
+  text-align: center;
+  display: inline;
+  padding: 1%;
+  color: white;
+  list-style-type: none;
+  font-family: "Times New Roman", Times, serif;
+}
+.signup {
+  border-style: inherit;
+  cursor: pointer;
+  background-color: orangered;
+  border-radius: 5%;
+  margin-left: 2%;
+  padding: 1%;
+  color: white;
+  text-decoration-line: none;
+}
+.divHeader {
+  height: 755px;
+  width: 100%;
+  background-color: #202124;
+}
+h1 {
+  padding-bottom: 1%;
+  padding-top: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  cursor: default;
+}
+.mainparagraph {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  cursor: default;
+}
+.lists {
+  cursor: pointer;
+  text-decoration-line: none;
+  color: white;
+}
+.picture1 {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  background-image: url(picture1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+#wrapper {
+  width: 100%;
+  height: 400px;
+  color: white;
+  background-color: #202124;
+  opacity: 0.9;
+  bottom: 0;
+  position: absolute;
+  border-top: 3px solid red;
+}
+.header1text {
+  width: 33%;
+  float: left;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.paragraph1text,
+.paragraph2text {
+  width: 33%;
+  float: left;
+  padding-top: 5%;
+  font-weight: lighter;
+  color: gray;
+  padding: 5% 1%;
+}
+h4 {
+  padding-top: 5%;
+}
+.picture2 {
+  width: 100%;
+  height: 730px;
+  position: relative;
+  background-image: url(picture2.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+#wrapper1 {
+  width: 40%;
+  height: 730px;
+  color: white;
+  background-color: #202124;
+  opacity: 0.9;
+  position: absolute;
+  border-left: 3px solid #00ffff;
+  right: 0;
+  padding: 5%;
+}
+.h2 {
+  padding-top: 20%;
+  padding-left: 5%;
+}
+.h3 {
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.paragraph3text {
+  padding-left: 5%;
+  font-weight: lighter;
+  color: grey;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.learnmore1 {
+  border: 1px solid gray;
+  padding: 2% 3%;
+  text-decoration-line: none;
+  color: white;
+}
+.linkborder {
+  padding-left: 5%;
+}
+.learnmore1:hover {
+  border: 1px solid #00ffff;
+}
+.picture3 {
+  width: 100%;
+  height: 730px;
+  position: relative;
+  background-image: url(picture3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+#wrapper2 {
+  width: 40%;
+  height: 730px;
+  color: white;
+  background-color: #202124;
+  opacity: 0.9;
+  position: absolute;
+  border-right: 3px solid #00ffff;
+  left: 0;
+  padding: 5%;
+}
+.divfoot {
+  width: 100%;
+  height: 800px;
+  background-color: #202124;
+}
+.paragraphheader {
+  width: 100%;
+  height: 250px;
+  color: white;
+  text-align: center;
+  padding: 5%;
+}
+.paragraphheader::after {
+  content: "";
+  width: 30%;
+  border-bottom: 3px solid red;
+  margin: 0 auto;
+  display: block;
+  padding-top: 5%;
+}
+.pheader {
+  padding: 2% 0%;
+}
+.firstlandmark {
+  width: 33%;
+  height: 200px;
+  float: left;
+  background-color: #202124;
+}
+.spanlandmark {
+  font-size: 5em;
+  color: black;
+  border: 1px solid white;
+  border-radius: 100%;
+  background-color: white;
+  padding: 5%;
+  position: relative;
+  text-align: center;
+}
+.center {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+h4,
+.textlm {
+  color: white;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.secondlandmark {
+  width: 33%;
+  height: 200px;
+  float: left;
+  background-color: #202124;
+}
+.thirdlandmark {
+  width: 33%;
+  height: 200px;
+  float: left;
+  background-color: #202124;
+}
+.fourthlandmark {
+  width: 33%;
+  height: 200px;
+  float: left;
+  background-color: #202124;
+}
+.textlm {
+  padding-bottom: 10%;
+}
+.fifthlandmark {
+  width: 33%;
+  height: 200px;
+  float: left;
+  background-color: #202124;
+}
+.sixthlandmark {
+  width: 33%;
+  height: 200px;
+  float: left;
+  background-color: #202124;
+}
+.linkfooter {
+  width: 10%;
+  height: 50px;
+  border: 1px solid gray;
+  text-decoration-line: none;
+  padding: 10px;
+}
+.centerlink {
+  padding-left: 45%;
+  padding-top: 40%;
+}
+.linkfooter:hover {
+  width: 10%;
+  height: 50px;
+  border: 1px solid #468b93;
+  text-decoration-line: none;
+  padding: 10px;
+}
+.getstarted {
+  width: 100%;
+  height: 300px;
+  background-color: #f05d64;
+}
+.header2,
+.headerparagraph {
+  text-align: center;
+  color: white;
+  padding-top: 2%;
+}
+#email {
+  width: 25%;
+  height: 20px;
+  background-color: #f05d64;
+}
+.centerinput {
+  padding-left: 38%;
+}
+.getstartedlink {
+  border: 1px solid white;
+  text-decoration-line: none;
+  padding: 2px;
+  background-color: white;
+  color: #f05d64;
+}
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: #202124;
+}
+.ulfooter {
+  display: inline;
+  position: center;
+  color: #010001;
+}
+.footerdiv {
+  text-align: center;
+  padding-top: 10%;
+  color: #010001;
+}
+.copyright {
+  color: white;
+  padding-left: 38%;
+}
